@@ -1,7 +1,7 @@
 # proyecto2023
 Estructura de Proyecto Lab de Compu II - 2023
 
-## Requisitos del Primer Parcial hola negro como andas
+## Requisitos del Primer Parcial 
 
 ### Sobre el Repositorio
 - [ ] El proyecto debe estar subido al repositorio adecuado "Proyecto2023-ApellidoAlumno1-ApellidoAlumno2"
