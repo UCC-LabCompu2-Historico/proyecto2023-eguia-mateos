@@ -28,6 +28,13 @@ nav img{
     letter-spacing: 2px;
     padding:15px ;
   }
+
+
+  #bienvenida{
+    font-family: Relaway, sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
   
   .section1{
     margin: 0 auto;
