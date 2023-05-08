@@ -11,10 +11,67 @@ nav {
 	background-color: #333;
 	width: 100%;
 	margin: 0;
+  text-align: center;
 }
 nav img{
     height: 100px;
     padding-left: 20px;
+}
+nav h3{
+  color: #fff;
+  font-family:cursive;
+}
+.section1{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 30%;
+  font-family:Raleway, sans-serif;
+}
+
+.lienzo{
+  display: flex;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+#lienzo{
+  color: #333;
+  font-size: 50px;
+}
+
+.plantilla{
+  display: flex; 
+  text-align: center;
+  font-weight: bolder;
+}
+
+#plantilla{
+  color: #333;
+  font-size: 50px;
+}
+
+
+
+.section1 a{
+  font-size: 100px;
+  font-weight: bolder;
+  padding: 10px 40px 10px 40px;
+  border: 7px solid #333;
+  background-color: #333;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-left: 20px;
+  margin-right: 30px;
+
+}
+
+.section1 a:hover{
+  background-color: whitesmoke;
+  border-color: #333;
+  color: #333;
+  border: 7px solid #333;
+  font-weight: bolder;
 }
 
 footer {
@@ -28,11 +85,9 @@ footer {
   }
 
  .section3{
-  text-align: center;
   font-family:Raleway, sans-serif;
-  text-align: center;
-  float:center;
+  display: flex;
  }
- #ucclogo{
-    float: left;
-  }
+ .piedepagina{
+  text-align: center; 
+ }
