@@ -16,11 +16,11 @@ nav img{
     height: 100px;
     padding-left: 20px;
 }
-#principal{
+#limpiar{
   text-align: center;
 }
 
-#principal button:hover{
+#limpiar button:hover{
   background-color: #fff;
   color: #333;
   border: 3px solid #333;
@@ -34,6 +34,35 @@ button{
   color: #fff;
   border: 3px;
 }
+
+canvas{
+  border: 3px solid #333;
+}
+#opciones {
+  display: block;
+}
+
+select{
+  font-size: 20px;
+  margin: 30px;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  border: 3px;
+}
+
+input{
+  color: #333;
+  background-color: #333;
+}
+
+#principal{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+
 
 footer {
     background-color: #333;

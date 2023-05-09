@@ -7,15 +7,17 @@ body, html{
 
 nav {
 	display: inline-flex;
-	padding: 20px 0;
-	background-color: #333;
+	padding: 130px 0;
 	width: 100%;
 	margin: 0;
   text-align: center;
+  background-image: url("/Resources/images/fondoarriba2.png");
+  background-size:cover;
 }
 nav img{
-    height: 100px;
+    height: 140px;
     padding-left: 20px;
+  
 }
 
 .section1{
@@ -72,12 +74,12 @@ nav img{
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-image: url("/Resources/images/fondoabajo2.png");
+    background-size: cover;
+    color:#333;
     padding: 20px 0 80px 10px;
     text-align: center;
     margin-top: 10px;
-  
 
   }
 
