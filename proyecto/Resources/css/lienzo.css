@@ -7,8 +7,9 @@ body, html{
 
 nav {
 	display: inline-flex;
-	padding: 20px 0;
-	background-color: #333;
+	padding: 130px 0;
+	background-image: url("/Resources/images/fondoarriba2.png");
+  background-size:cover;
 	width: 100%;
 	margin: 0;
 }
@@ -51,10 +52,6 @@ select{
   border: 3px;
 }
 
-input{
-  color: #333;
-  background-color: #333;
-}
 
 #principal{
   text-align: center;
@@ -65,8 +62,9 @@ input{
 
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-image: url("/Resources/images/fondoabajo2.png");
+    background-size: cover;
+    color: #333;
     padding: 20px 0 80px 10px;
     text-align: center;
     margin-top: 10px;
@@ -75,7 +73,7 @@ footer {
   .section3{
     text-align: center;
     font-family:Raleway, sans-serif;
-    text-align: center;
+    display: flex;
     float:center;
    }
    #ucclogo{

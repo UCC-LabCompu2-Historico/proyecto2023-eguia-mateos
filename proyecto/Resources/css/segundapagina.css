@@ -15,9 +15,9 @@ nav {
   background-size:cover;
 }
 nav img{
+    
     height: 140px;
     padding-left: 20px;
-  
 }
 
 .section1{
@@ -86,7 +86,15 @@ footer {
  .section3{
   font-family:Raleway, sans-serif;
   display: flex;
+  text-align: center;
  }
  .piedepagina{
   text-align: center; 
+ }
+
+ @media screen and (max-width:844px){
+    body{
+      width:min-content;
+    }
+
  }

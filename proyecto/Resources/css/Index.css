@@ -8,7 +8,8 @@ html, body{
 nav {
   margin-top: 0px;
   text-align: center;
-  background-size: cover;
+  background-image: url("/Resources/images/fondoarriba2.png");
+  background-size:cover;
   background-position: bottom center;
   height: 25.75rem;
   width: 100%;
@@ -19,6 +20,7 @@ nav img{
   height: 100%;
  
 }
+
 
   nav h3{
     font-family: Relaway, sans-serif;
@@ -40,6 +42,7 @@ nav img{
     margin: 0 auto;
     padding: 2.5em;
     text-align: center;
+    display: flex;
   }
 
   .section1 p{
@@ -50,6 +53,11 @@ nav img{
     font-family:cursive;
     font-size: 1.2rem;
   }
+  .section1 img {
+    height: 350px;
+    width: 350px ;
+
+  }
 
 
   .section2{
@@ -58,8 +66,8 @@ nav img{
   
   #empezar{
     font-family:Raleway, sans-serif;
-    padding: 20px 50px;
-    border: 3px;
+    padding: 40px 80px;
+    border: 7px solid #333;
     border-radius: 3px;
     font-size: 20px ;
     font-weight: 700;
@@ -67,26 +75,11 @@ nav img{
     background-color: #333;
     color: whitesmoke;
   }
-  #empezar :hover{
-  background-color: whitesmoke;
-  border-color: #333; 
-  border: 3px solid #333;
-  color: #333;
-  font-weight: 700;
-  }
-
-  .section2 a:hover{
-  background-color: whitesmoke;
-  border-color: #333; 
-  border: 3px solid #333;
-  color: #333;
-  font-weight: 700;
-  }
 
   
-
   footer {
-    background-color: #333;
+    background-image: url("/Resources/images/fondoabajo2.png");
+    background-size: cover;
     color: #fff;
     padding: 20px 0 80px 10px;
     text-align: center;
@@ -98,10 +91,27 @@ nav img{
  .section3{
   text-align: center;
   font-family:Raleway, sans-serif;
-  text-align: center;
-  float:center;
+  display: flex;
+
  }
  #ucclogo{
     float: left;
   }
 
+  /*@media screen and (max-width:844px){
+    #banner .contenido h1{
+    border: 0.3rem solid #333;
+    color: #333;
+    font-family:Raleway, sans-serif;
+    font-size: 1.6rem;
+    width: 10rem;
+    text-align: center;
+    position: relative;
+    top: 12.5rem;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 2rem;
+    }
+
+  }*/
+  @media screen and (max-width:844px)
