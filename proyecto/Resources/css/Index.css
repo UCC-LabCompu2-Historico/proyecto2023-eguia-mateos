@@ -3,6 +3,10 @@ html, body{
     padding: 0;
     box-sizing:border-box;
     font-size: 16px;
+    background-image: url("/Resources/images/fondito2.png");
+    background-position: center;
+    background-size:cover;
+  
   }
 
 nav {
@@ -20,6 +24,7 @@ nav img{
   height: 100%;
  
 }
+
 
 
   nav h3{
@@ -67,13 +72,13 @@ nav img{
   #empezar{
     font-family:Raleway, sans-serif;
     padding: 40px 80px;
-    border: 7px solid #333;
+    border: 7px solid black;
     border-radius: 3px;
     font-size: 20px ;
     font-weight: 700;
     text-align: center;
-    background-color: #333;
-    color: whitesmoke;
+    background-color: solid black;
+    color: black;
   }
 
   
@@ -84,8 +89,6 @@ nav img{
     padding: 20px 0 80px 10px;
     text-align: center;
     margin-top: 10px;
-  
-
   }
 
  .section3{
@@ -93,25 +96,13 @@ nav img{
   font-family:Raleway, sans-serif;
   display: flex;
 
+
  }
  #ucclogo{
     float: left;
   }
+  .piedepagina{
+    text-align: center; 
+   }
 
-  /*@media screen and (max-width:844px){
-    #banner .contenido h1{
-    border: 0.3rem solid #333;
-    color: #333;
-    font-family:Raleway, sans-serif;
-    font-size: 1.6rem;
-    width: 10rem;
-    text-align: center;
-    position: relative;
-    top: 12.5rem;
-    overflow: hidden;
-    margin: 0 auto;
-    padding: 2rem;
-    }
 
-  }*/
-  @media screen and (max-width:844px)
