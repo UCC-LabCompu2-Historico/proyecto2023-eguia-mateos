@@ -72,20 +72,21 @@ nav img{
   #empezar{
     font-family:Raleway, sans-serif;
     padding: 40px 80px;
-    border: 7px solid black;
+    border: 7px solid mediumpurple;
     border-radius: 3px;
     font-size: 20px ;
     font-weight: 700;
     text-align: center;
-    background-color: solid black;
-    color: black;
+    background-color: mediumpurple;
+    color: white;
+    font-weight: bolder;
   }
 
   
   footer {
     background-image: url("/Resources/images/fondoabajo2.png");
     background-size: cover;
-    color: #fff;
+    color: blue;
     padding: 20px 0 80px 10px;
     text-align: center;
     margin-top: 10px;

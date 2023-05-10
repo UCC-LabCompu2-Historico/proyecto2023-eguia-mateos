@@ -1,9 +1,10 @@
 body, html{
 	padding: 0;
 	margin: 0;
-  box-sizing:border-box;
 	font-size: 16px;
-
+  background-image: url("/Resources/images/fondito2.png");
+  background-position: center;
+  background-size:cover;
 }
 
 nav {
@@ -56,9 +57,9 @@ nav img{
   font-size: 100px;
   font-weight: bolder;
   padding: 10px 40px 10px 40px;
-  border: 7px solid #333;
-  background-color: #333;
-  color: whitesmoke;
+  border: 7px solid mediumpurple;
+  background-color:white;
+  color: mediumpurple;
   text-decoration: none;
   border-radius: 3px;
   margin-left: 20px;
@@ -67,10 +68,9 @@ nav img{
 }
 
 .section1 a:hover{
-  background-color: whitesmoke;
-  border-color: #333;
-  color: #333;
-  border: 7px solid #333;
+  background-color: white;
+  color:aquamarine;
+  border: 7px solid aquamarine;
   font-weight: bolder;
 }
 
