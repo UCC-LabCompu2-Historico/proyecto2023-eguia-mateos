@@ -1,73 +1,76 @@
-body, html{
-	padding: 0;
-	margin: 0;
-	font-size: 16px;
-  background-image: url("/Resources/images/fondito2.png");
-  background-position: center;
-  background-size:cover;
+body, html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    background-image: url("/Resources/images/fondito2.png");
+    background-position: center;
+    background-size: cover;
 }
 
 nav {
-	display: inline-flex;
-	padding: 130px 0;
-	background-image: url("/Resources/images/fondoarriba2.png");
-  background-size:cover;
-	width: 100%;
-	margin: 0;
+    display: inline-flex;
+    padding: 130px 0;
+    background-image: url("/Resources/images/fondoarriba2.png");
+    background-size: cover;
+    width: 100%;
+    margin: 0;
 }
-nav img{
+
+nav img {
     height: 100px;
     padding-left: 20px;
 }
-#limpiar{
-  text-align: center;
+
+#limpiar {
+    text-align: center;
 }
 
-#limpiar button:hover{
-  background-color: #fff;
-  color: #333;
-  border: 3px solid #333;
+#limpiar button:hover {
+    background-color: #fff;
+    color: #333;
+    border: 3px solid #333;
 
 }
-button{
-  font-size: 20px;
-  margin: 30px;
-  padding: 20px;
-  background-color: #333;
-  color: #fff;
-  border: 3px;
+
+button {
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border: 3px;
 }
 
-canvas{
-  border: 3px solid #333;
+canvas {
+    border: 3px solid #333;
 }
+
 #opciones {
-  display: block;
+    display: block;
 }
 
-label{
-  font-family:Raleway, sans-serif;
-  color: #333;
-  font-weight: bolder;
-  font-size: larger;
+label {
+    font-family: Raleway, sans-serif;
+    color: #333;
+    font-weight: bolder;
+    font-size: larger;
 }
 
-select{
-  font-size: 20px;
-  margin: 30px;
-  padding: 20px;
-  background-color: #333;
-  color: #fff;
-  border: 3px;
+select {
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border: 3px;
 }
 
 
-#principal{
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 40px;
+#principal {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
-
 
 
 footer {
@@ -77,20 +80,20 @@ footer {
     padding: 20px 0 80px 10px;
     text-align: center;
     margin-top: 10px;
-  }
+}
 
-  .section3{
+.section3 {
     text-align: center;
-    font-family:Raleway, sans-serif;
+    font-family: Raleway, sans-serif;
     display: flex;
-    float:center;
-   }
-   #ucclogo{
-      float: left;
-    }
-  
-  
-canvas{
-  width: 500px;
-  height: 500px;
+}
+
+#ucclogo {
+    float: left;
+}
+
+
+canvas {
+    width: 500px;
+    height: 500px;
 }

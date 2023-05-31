@@ -1,111 +1,114 @@
-body, html{
-	padding: 0;
-	margin: 0;
-	font-size: 16px;
-  background-image: url("/Resources/images/fondito2.png");
-  background-position: center;
-  background-size:cover;
+body, html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    background-image: url("/Resources/images/fondito2.png");
+    background-position: center;
+    background-size: cover;
 }
 
 nav {
-	display: inline-flex;
-	padding: 130px 0;
-	width: 100%;
-	margin: 0;
-  text-align: center;
-  background-image: url("/Resources/images/fondoarriba2.png");
-  background-size:cover;
+    display: inline-flex;
+    padding: 130px 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-image: url("/Resources/images/fondoarriba2.png");
+    background-size: cover;
 }
-nav img{
-    
+
+nav img {
+
     height: 140px;
     padding-left: 20px;
 }
 
-.section1{
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 30%;
-  font-family:Raleway, sans-serif;
+.section1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 30%;
+    font-family: Raleway, sans-serif;
 }
 
-.lienzo{
-  display: flex;
-  text-align: center;
-  font-weight: bolder;
-  margin-bottom: 30px;
-}
-#lienzo{
-  color: #333;
-  font-size: 50px;
+.lienzo1 {
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 30px;
 }
 
-.plantilla{
-  display: flex; 
-  text-align: center;
-  font-weight: bolder;
+#lienzo1 {
+    color: #333;
+    font-size: 50px;
 }
 
-#plantilla{
-  color: #333;
-  font-size: 50px;
+.plantilla1 {
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#plantilla2 {
+    color: #333;
+    font-size: 50px;
 }
 
 
-
-.section1 a{
-  font-size: 100px;
-  font-weight: bolder;
-  padding: 10px 40px 10px 40px;
-  border: 7px solid mediumpurple;
-  background-color:white;
-  color: mediumpurple;
-  text-decoration: none;
-  border-radius: 3px;
-  margin-left: 20px;
-  margin-right: 30px;
+.section1 a {
+    font-size: 100px;
+    font-weight: bolder;
+    padding: 10px 40px 10px 40px;
+    border: 7px solid mediumpurple;
+    background-color: white;
+    color: mediumpurple;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 30px;
 
 }
 
-.section1 a:hover{
-  background-color: white;
-  color:aquamarine;
-  border: 7px solid aquamarine;
-  font-weight: bolder;
+.section1 a:hover {
+    background-color: white;
+    color: aquamarine;
+    border: 7px solid aquamarine;
+    font-weight: bolder;
 }
 
 footer {
     background-image: url("/Resources/images/fondoabajo2.png");
     background-size: cover;
-    color:#333;
+    color: #333;
     padding: 20px 0 80px 10px;
     text-align: center;
     margin-top: 10px;
 
-  }
+}
 
- .section3{
-  font-family:Raleway, sans-serif;
-  display: flex;
-  text-align: center;
- }
- 
- .piedepagina{
-  text-align: center; 
- }
+.section3 {
+    font-family: Raleway, sans-serif;
+    display: flex;
+    text-align: center;
+}
 
- @media screen and (max-width:844px){
+.piedepagina {
+    text-align: center;
+}
 
-   .section1{
-    font-size: 10px;
-    margin-left: 5px;
-   }
-   #lienzo{
-    font-size: 30px;
-   }
-   #plantilla{
-    font-size: 30px;
-   }
+@media screen and (max-width: 844px) {
+
+    .section1 {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    #lienzo {
+        font-size: 30px;
+    }
+
+    #plantilla {
+        font-size: 30px;
+    }
 
 
- }
+}

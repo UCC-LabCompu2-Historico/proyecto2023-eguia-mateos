@@ -1,109 +1,112 @@
-html, body{
+html, body {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-size: 16px;
     background-image: url("/Resources/images/fondito2.png");
     background-position: center;
-    background-size:cover;
-  
-  }
+    background-size: cover;
+
+}
 
 nav {
-  margin-top: 0px;
-  text-align: center;
-  background-image: url("/Resources/images/fondoarriba2.png");
-  background-size:cover;
-  background-position: bottom center;
-  height: 25.75rem;
-  width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    background-image: url("/Resources/images/fondoarriba2.png");
+    background-size: cover;
+    background-position: bottom center;
+    height: 25.75rem;
+    width: 100%;
 
-  }
-nav img{
-  background-size: cover;
-  height: 100%;
- 
+}
+
+nav img {
+    background-size: cover;
+    height: 100%;
+
 }
 
 
-
-  nav h3{
+nav h3 {
     font-family: Relaway, sans-serif;
     color: aliceblue;
     font-weight: 300;
     font-size: 25px;
     letter-spacing: 2px;
-    padding:15px ;
-  }
+    padding: 15px;
+}
 
 
-  #bienvenida{
+#bienvenida {
     font-family: Relaway, sans-serif;
     text-align: center;
     padding: 50px;
-  }
-  
-  .section1{
+}
+
+.section1 {
     margin: 0 auto;
     padding: 2.5em;
     text-align: center;
     display: flex;
-  }
+}
 
-  .section1 p{
+.section1 p {
     line-height: 20px;
     padding: 20px 20px;
     margin-bottom: 20px;
     color: #333;
-    font-family:cursive;
+    font-family: cursive;
     font-size: 1.2rem;
-  }
-  .section1 img {
+}
+
+.section1 img {
     height: 350px;
-    width: 350px ;
+    width: 350px;
 
-  }
+}
 
 
-  .section2{
+.section2 {
     text-align: center;
-  }
-  
-  #empezar{
-    font-family:Raleway, sans-serif;
+}
+
+#empezar {
+    font-family: Raleway, sans-serif;
     padding: 40px 80px;
     border: 7px solid mediumpurple;
     border-radius: 3px;
-    font-size: 20px ;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
     background-color: mediumpurple;
     color: white;
     font-weight: bolder;
-  }
+}
 
-  
-  footer {
+
+footer {
     background-image: url("/Resources/images/fondoabajo2.png");
     background-size: cover;
     color: blue;
     padding: 20px 0 80px 10px;
     text-align: center;
     margin-top: 10px;
-  }
+}
 
- .section3{
-  text-align: center;
-  font-family:Raleway, sans-serif;
-  display: flex;
+.section3 {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    display: flex;
 
 
- }
- #ucclogo{
+}
+
+#ucclogo {
     float: left;
-  }
-  .piedepagina{
-    text-align: center; 
-   }
+}
+
+.piedepagina {
+    text-align: center;
+}
 
 
