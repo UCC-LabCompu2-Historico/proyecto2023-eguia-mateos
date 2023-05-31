@@ -4,4 +4,5 @@ La pagina contiene 3 ventanas por las cuales el usuario podra navegar. La primer
 
 Utilizamos las tecnologias anteriormente dichas y Visual Studio como compilador. 
 
-Utilizamos las tecnologias anteriormente dichas y Visual Studio como compilador.
+
+Autores: Felipe Eguia y Francisco Mateos. 
