@@ -2,7 +2,7 @@ body, html {
     padding: 0;
     margin: 0;
     font-size: 16px;
-    background-image: url("/Resources/images/fondito2.png");
+    background-image: url("../images/fondito2.png");
     background-position: center;
     background-size: cover;
 }
@@ -13,7 +13,7 @@ nav {
     width: 100%;
     margin: 0;
     text-align: center;
-    background-image: url("/Resources/images/fondoarriba2.png");
+    background-image: url("../images/fondoarriba2.png");
     background-size: cover;
 }
 
@@ -76,7 +76,7 @@ nav img {
 }
 
 footer {
-    background-image: url("/Resources/images/fondoabajo2.png");
+    background-image: url("../images/fondoabajo2.png");
     background-size: cover;
     color: #333;
     padding: 20px 0 80px 10px;

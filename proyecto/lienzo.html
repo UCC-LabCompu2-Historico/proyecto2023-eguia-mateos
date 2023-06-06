@@ -8,28 +8,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     <link rel="icon" href="" type="image" sizes="3232">
     <link rel="shortcut icon" type="image/png" href="./Resources/images/favicon.png">
+    <script type="text/javascript" src="funciones.js" defer></script>
 </head>
 
 <body>
+
 <nav>
     <a href="./Index.html"><img src="./Resources/images/Frame_1_1.png" alt="Logo de pàgina"></a>
 </nav>
 
 <section class="principal" id="principal">
     <div id="opciones">
+        <label for="Lapizbutton" id="Lapiz" >Lapiz</label>
+        <input type="button" id="Lapizbutton" class="1 opcion">
+
+        <label for="borradorbutton" id="button">Borrador</label>
+        <input type="button" id="borradorbutton" class="2 opcion">
+
         <label for="medidor">Grosor</label>
-        <input type="range" id="medidor">
+        <input type="range" id="medidor" class="3 opcion" min="1" max="15">
         <label for="tabla_colores">Colores: </label>
-        <select id="tabla_colores">
-            <option>Rojo</option>
-            <option>Azul</option>
+        <select id="tabla_colores" class="coloress">
+            <option class="1 color" value="Negro">Negro</option>
+            <option class="2 color" value="Azul">Azul</option>
+            <option class="3 color" value="Verde">verde</option>
+            <option class="4 color" value="Amarillo">Amarillo</option>
+            <option class="5 color" value="Rojo">Rojo</option>
+
         </select>
     </div>
-    <canvas></canvas>
+
+    <canvas id="myCanvas" class="ejer" width="1200px" height="500px">
+
+
+    </canvas>
 </section>
 
 <div id="limpiar">
-    <button>Limpiar</button>
+    <button class="limpiarbutton">Limpiar</button>
 </div>
 
 
@@ -37,9 +53,11 @@
     <section class="section3" id="pie"><br>
         <img id="ucclogo" src="./Resources/images/ucclogo.png" alt="Logo UCC">
         <section class="piedepagina" id="piedepagina">
+
             <h2>Proyecto paint</h2>
             <h4>Alumnos: Felipe Eguia y Francisco Mateos</h4>
             <h4>Materia: Laboratorio de programacion 2</h4>
+
         </section>
     </section>
 </footer>

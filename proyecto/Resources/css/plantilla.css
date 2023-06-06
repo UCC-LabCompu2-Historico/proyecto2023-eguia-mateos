@@ -2,7 +2,7 @@ body, html {
     padding: 0;
     margin: 0;
     font-size: 16px;
-    background-image: url("/Resources/images/fondito2.png");
+    background-image: url("../images/fondito2.png");
     background-position: center;
     background-size: cover;
 }
@@ -10,7 +10,7 @@ body, html {
 nav {
     display: inline-flex;
     padding: 130px 0;
-    background-image: url("/Resources/images/fondoarriba2.png");
+    background-image: url("../images/fondoarriba2.png");
     background-size: cover;
     width: 100%;
     margin: 0;
@@ -23,43 +23,70 @@ nav img {
 
 #limpiar {
     text-align: center;
+    
 }
+
 
 #limpiar button:hover {
     background-color: #fff;
-    color: #333;
-    border: 3px solid #333;
+    color: #e61bd5;
+    border:  solid #e61bd5;
 
 }
-
-button:hover {
-    background-color: #fff;
-    color: #333;
-    border: 3px solid #333;
+button {
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #e61bd5;
+    color: #fff;
+    border: 3px;
 }
+
+
 
 canvas {
-    border: 3px solid #333;
+    width: 1200px;
+    height: 500px;
+    background-color: #fff;
+    border: 4px solid #e61bd5;
+    border-radius: 10px;
+    
 }
 
 #opciones {
     display: block;
+    border: 4px solid #e61bd5;
+    margin:  10px 10%;
+    border-radius: 10px;
+    
 }
 
 select {
     font-size: 20px;
     margin: 30px;
     padding: 20px;
-    background-color: #333;
+    background-color:  #0881f3;
+    border: 4px solid #e61bd5;
     color: #fff;
-    border: 3px;
+
 }
 
 label {
     font-family: Raleway, sans-serif;
     color: #333;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: larger;
+    margin: 20px;
+ 
+}
+
+input{
+    
+    background-color: #0881f3;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #e61bd5;
+    border-radius: 100px;
 }
 
 
@@ -70,18 +97,8 @@ label {
 }
 
 
-button {
-    font-size: 20px;
-    margin: 30px;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    border: 3px;
-}
-
-
 footer {
-    background-image: url("/Resources/images/fondoabajo2.png");
+    background-image: url("../images/fondoabajo2.png");
     background-size: cover;
     color: #333;
     padding: 20px 0 80px 10px;
