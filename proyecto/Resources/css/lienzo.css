@@ -111,3 +111,19 @@ footer {
     float: left;
 }
 
+
+@media screen and (max-width: 1400px) {
+
+    canvas{
+        width: 80%;
+    }
+
+    #opciones{
+        height: 300px;
+        display: block;
+        padding: 100px;
+    }
+
+
+}
+

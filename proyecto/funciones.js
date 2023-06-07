@@ -5,7 +5,8 @@ const colores = document.querySelector('#tabla_colores');
 const tamanio = document.querySelector('#medidor');
 const limpiar = document.querySelector(".limpiarbutton");
 
-
+const iniciar = document.getElementById("iniciar");
+console.log(iniciar);
 
 let opcionactual = "Lapizbutton";
 let grosor = 4;
@@ -94,16 +95,22 @@ const dibujar = (cursorx,cursory) =>{
 pox = canvas.width;
 poy = canvas.height;
 
-
-img.onload = function(){
-    ctx.drawImage(img,0,0,pox,poy);
-    img.onload = function(){
-        ctx.drawImage(img,0,0,0,0)
+if( iniciar == null){
+    console.log("nada");
+}else{
+    const ponerdibujo = () => {
+        img.onload = function(){
+            ctx.drawImage(img,0,0,pox,poy);
+            img.onload = function(){
+                ctx.drawImage(img,0,0,0,0)
+            }
+        
+        }
     }
-
+    
+    iniciar.addEventListener("click",ponerdibujo);
+    
 }
-
-      
 
 
 
@@ -163,15 +170,21 @@ colores.addEventListener("change", ()=> {
 });
 
 limpiar.addEventListener("click", ()=>{
-    ctx.clearRect(0,0,canvas.width,canvas.height);
-    img.onload = function(){
-        ctx.drawImage(img,0,0,pox,poy);
-        img.onload = function(){
-            ctx.drawImage(img,0,0,0,0)
-        }
-    
-    }
 
+
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    if(iniciar == null){
+        console.log("nda");
+    }else{
+        img.onload = function(){
+            ctx.drawImage(img,0,0,pox,poy);
+            img.onload = function(){
+                ctx.drawImage(img,0,0,0,0)
+            }
+        
+        }
+    }
+    
 });
 
 tamanio.addEventListener("change", ()=> grosor = tamanio.value );
