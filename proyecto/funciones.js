@@ -184,3 +184,26 @@ limpiar.addEventListener("click", () => {
 
 tamanio.addEventListener("change", () => grosor = tamanio.value);
 
+
+x = 0;
+dx = 10;
+function animarPincel(){
+    var canvass = document.getElementById("Canvas2");
+    var ctxx = canvass.getContext("2d");
+    canvass.width = canvass.width;
+
+
+    var imgg= new Image();
+    //img.src = "Resources/images/pincel.png";
+    imgg.src = "Resources/images/sombrero.png";
+
+
+    img.onload = function (){
+        ctxx.drawImage(img,x,100)
+        /*if (x>canvas.width){
+            x = 0;
+        }*/
+    }
+
+    x= x+ dx;
+}
