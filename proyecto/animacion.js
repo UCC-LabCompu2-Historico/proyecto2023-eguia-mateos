@@ -10,18 +10,18 @@ function animarPincel(){
 
     var imgg= new Image();
 
-    imgg.src = "Resources/images/pincel.png";
-    imgg.width = '50px';
-    imgg.height = '50px';
+    imgg.src = "Resources/images/manopincel2.png";
+    imgg.style.width = '50px';
+    imgg.style.height = '50px';
 
 
     imgg.onload = function (){
         ctxx.drawImage(imgg,x,100)
 
     }
-    if(x > canvass.width){
-        x = 0;
+    if(x == 600 || x < 0){
+        dx = dx*-1;
     }
 
-    x= x+ dx;
+    x = x+ dx;
 }

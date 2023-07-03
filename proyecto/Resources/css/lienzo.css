@@ -34,7 +34,7 @@ nav img {
 
 }
 
-button {
+.radio{
     font-size: 20px;
     margin: 30px;
     padding: 20px;
@@ -42,6 +42,7 @@ button {
     color: #fff;
     border: 3px;
 }
+
 
 canvas {
     width: 1200px;
