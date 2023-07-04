@@ -1,8 +1,8 @@
 # proyecto2023
-Nuestro proyecto, DRAW ++, se basa en una pàgina web desarrollada con HTML, CSS y javascript la cual permitira al usuario dibujar sobre un lienzo en blanco o sobre un dibujo ya realizado, terminandolo, mejorandolo o como guste.
-La pàgina contiene 3 ventanas por las cuales el usuario podra navegar. La primera contiene el tìtulo de la pagina e imagenes de famosos artistas acompañados por frases propias para inspirar al usuario. Luego, un boton de "empezar" le permitira elegir si quiere comenzar un dibujo desde cero o quiere continuar con uno ya establecido. Por ultimo, podra elegir que tamaño de grosor quiere para su lienzo y el color que utilizara. 
+Nuestro proyecto, DRAW ++, se basa en una pàgina web desarrollada con HTML, CSS y JavaScript la cual permitirá al usuario dibujar sobre un lienzo en blanco o sobre un dibujo ya realizado, terminándolo, mejorándolo o como guste.
+La pàgina contiene 3 ventanas por las cuales el usuario podrá navegar. La primera contiene el tìtulo de la página e imágenes de famosos artistas acompañados por frases propias para inspirar al usuario. Luego, un botón de "empezar" le permitirá elegir si quiere comenzar un dibujo desde cero o quiere continuar con uno ya establecido. Por último, podrá elegir que tamaño de grosor quiere para su lienzo y el color que utilizara. 
 
-Utilizamos las tecnologias anteriormente dichas y Visual Studio como compilador. 
+Utilizamos las tecnologías anteriormente dichas y Visual Studio como compilador. 
 
 
 Autores: Felipe Eguia y Francisco Mateos. 
