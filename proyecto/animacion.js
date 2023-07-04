@@ -1,5 +1,7 @@
 
-
+/**
+ * Descripcion: Realiza la animacion que vemos en la segunda pagina.
+ */
 x = 0;
 dx = 10;
 function animarPincel(){
