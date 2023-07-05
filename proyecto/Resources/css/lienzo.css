@@ -26,6 +26,15 @@ nav img {
 
 }
 
+button {
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #e61bd5;
+    color: #fff;
+    border: 3px;
+}
+
 
 #limpiar button:hover {
     background-color: #fff;
@@ -39,7 +48,7 @@ nav img {
     margin: 30px;
     padding: 20px;
     background-color: #e61bd5;
-    color: #fff;
+    color: #fff ;
     border: 3px;
 }
 
