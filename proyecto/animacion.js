@@ -13,8 +13,7 @@ function animarPincel(){
     var imgg= new Image();
 
     imgg.src = "Resources/images/manopincel2.png";
-    imgg.style.width = '50px';
-    imgg.style.height = '50px';
+
 
 
     imgg.onload = function (){
