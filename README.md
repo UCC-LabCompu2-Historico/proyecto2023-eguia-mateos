@@ -7,4 +7,4 @@ Utilizamos las tecnologías anteriormente dichas y Visual Studio como compilador
 
 Autores: Felipe Eguia y Francisco Mateos. 
 
-Link al sitio: [Ejercicio de Laboratorio 2](https://ucc-labcompu2.github.io/proyecto2023-eguia-mateos/proyecto/Index.html)
+Link al sitio: [Ejercicio de Laboratorio 2](https://ucc-labcompu2-historico.github.io/proyecto2023-eguia-mateos/proyecto/Index.html)
